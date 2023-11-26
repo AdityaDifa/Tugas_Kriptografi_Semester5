@@ -27,6 +27,8 @@ if ($conn->connect_error) {
 $username = $_POST['username_input'];
 $password = $_POST['password_input']; 
 
+$key = "kriptoitusangatmenyenangkanhahah";
+$iv = "kriptoituindahha";
 $passwordEnkrip = encryptAES($password, $key, $iv); //plaintext,kunci,iv
 // Menyimpan data ke database
 $sql = "INSERT INTO akun (username, password) VALUES ('$username', '$passwordEnkrip')";

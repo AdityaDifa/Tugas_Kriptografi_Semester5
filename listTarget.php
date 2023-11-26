@@ -54,6 +54,8 @@ function caesarDecrypt($ciphertext, $shift) {
     return caesarEncrypt($ciphertext, 26-$shift);
 }
 
+$key = "kriptoitusangatmenyenangkanhahah";
+$iv = "kriptoituindahha";
 $shift = 2;
 
 $host = "localhost";

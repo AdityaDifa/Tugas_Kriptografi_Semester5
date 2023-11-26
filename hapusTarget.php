@@ -48,6 +48,8 @@ $database = "kripto";
 $conn = new mysqli($host, $dbusername, $dbpassword, $database);
 $nama = $_GET['nama'];
 
+$key = "kriptoitusangatmenyenangkanhahah";
+$iv = "kriptoituindahha";
 $shift = 2;
 
 $nama = caesarEncrypt($nama,$shift);

@@ -71,8 +71,6 @@ if ($conn->connect_error) {
 
 $nama = $_POST['namaTarget'];
 $nama = gantiSpasi($nama);
-$key = "kriptoituindah1";
-$iv = "kriptoituindah11";
 
 $shift = 2;
 $namaEnkrip = caesarEncrypt($nama,$shift);
